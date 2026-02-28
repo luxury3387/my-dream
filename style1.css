@@ -20,7 +20,7 @@ header{background-color: aqua;
                 body::before{content:"";
                   position: fixed;
                   inset: 0;
-                  background-image: url(LOGO.jpg);/*logo of boutique*/
+                  background-image: url(L.jpg);/*logo of boutique*/
                   background-size: cover;
                   background-position:center;
                   background-repeat: no-repeat;
