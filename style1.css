@@ -1,0 +1,67 @@
+
+header{background-color: aqua;
+              color:red;
+              border: 2px dotted blue;
+              margin: 5;
+              padding: 1
+                    }
+              h1{background-color: yellow;
+              color: blue;
+              border: 2px dotted blue;
+              font-family: goudy stout;
+              font-weight: bold;
+              letter-spacing: 4px;}
+
+               body{background-color:pink;
+                margin: 0;
+                min-height: 600px;
+                position: relative;
+                 }
+                body::before{content:"";
+                  position: fixed;
+                  inset: 0;
+                  background-image: url(LOGO.jpg);/*logo of boutique*/
+                  background-size: cover;
+                  background-position:center;
+                  background-repeat: no-repeat;
+                  filter: blur(3px);
+                  transform: scale(1.1);
+                  z-index: -1;
+
+                 }
+               nav{background-color: lightblue;        
+               color: black;
+               border: 2px solid red;
+                }
+          h2{background-color: yellow;
+              color: blue;
+              border: 2px dotted blue;
+          }
+          section{background-color: magenta;
+              color: white;
+              border: 2px solid green;
+          }
+          h3{background-color: magenta;
+              color: white;
+              border: 2px dotted blue;
+          }
+          p{background-color: lightblue;
+              color: black;
+              border: 2px solid red;
+          }
+          h4{background-color: aqua;
+              color: green;
+              border: 2px dotted blue;
+
+          }
+          footer{background-color: aqua;
+              color:  red;
+              border: 2px dotted blue;
+          }
+
+
+            
+             
+
+         
+          
